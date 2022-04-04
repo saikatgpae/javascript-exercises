@@ -4,6 +4,8 @@ describe('sumAll', () => {
   test('sums numbers within the range', () => {
     expect(sumAll(1, 4)).toEqual(10);
   });
+
+  /*
   test.skip('works with large numbers', () => {
     expect(sumAll(1, 4000)).toEqual(8002000);
   });
@@ -18,5 +20,5 @@ describe('sumAll', () => {
   });
   test.skip('returns ERROR with non-number parameters', () => {
     expect(sumAll(10, [90, 1])).toEqual('ERROR');
-  });
+  });*/
 });
